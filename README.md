@@ -1,3 +1,4 @@
+![alt text](image-1.png)
 # ATSXray — Smart ATS Resume Checker
 
 A free, transparent, single-page ATS analyzer. Semantic keyword matching, a raw-text "Recruiter's Eye" X-Ray view, and bullet-impact / anti-stuffing analysis — no sign-up, no paywall, no API key required.
@@ -66,3 +67,7 @@ Then set `ATS_LLM_PROVIDER=openai` with `OPENAI_API_KEY`, or `gemini` with `GEMI
 - `application/json`: `{ resumeText, jobDescription, fileName?, fileType? }`
 
 Returns `AnalysisResult` (see `lib/types.ts`). `GET /api/health` reports engine availability.
+=======
+# ATSX-ray
+ATS Resume Checker is a web application that evaluates resume compatibility with Applicant Tracking Systems by analyzing keywords, skills, and job descriptions. It provides an ATS score and improvement suggestions to help job seekers create more effective resumes.
+>>>>>>> 11acffe31f0e1c9977d8f0e47db5d1444055d50a
